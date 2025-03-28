@@ -1,0 +1,54 @@
+body {
+    background: #1e1e1e; /* color típico de fondo oscuro en editores */
+    background: -webkit-linear-gradient(to left, #2d2d2d, #1e1e1e); 
+    background: linear-gradient(to left, #473d3d, #1e1e1e);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #cccccc; /* texto claro sobre fondo oscuro */
+}
+
+p {
+    margin: 5px 0px 0px 0px;
+    border: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* tipo de letra de consola/editor */
+}
+
+.entrada {
+    height: 250px;
+    width: 850px;
+    resize: none;
+    font-family: 'Fira Code', 'Courier New', monospace; /* fuente tipo VSCode */
+    font-size: small;
+    background-color: #2e2e2e; /* fondo gris oscuro */
+    color: #ffffff; /* texto blanco */
+    border: 1px solid #555; /* borde sutil */
+}
+
+.contenedorEjecutar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    margin: 5px;
+    background-color: #3c3c3c; /* fondo oscuro */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #5a5a5a; /* efecto hover más claro */
+}
