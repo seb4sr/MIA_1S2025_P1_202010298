@@ -21,7 +21,7 @@ func Mkfs(entrada []string) {
 
 		if len(valores) != 2 {
 			fmt.Println("ERROR MKFS, valor desconocido de parametros ", valores[1])
-			break
+			//return "Error1"
 		}
 
 		if strings.ToLower(valores[0]) == "id" {

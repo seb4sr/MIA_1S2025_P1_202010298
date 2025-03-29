@@ -77,11 +77,11 @@ func Mkdisk(parametros []string) string {
 
 					unit = 1024
 
-			} else if strings.ToLower(tmp[1]) != "m" {
-				fmt.Println("MKDISK Error en -unit. Valores aceptados: k, m. ingreso: ", tmp[1])
-				paramC = false
-				break
-			}
+				} else if strings.ToLower(tmp[1]) != "m" {
+					fmt.Println("MKDISK Error en -unit. Valores aceptados: k, m. ingreso: ", tmp[1])
+					paramC = false
+					break
+				}
 
 			} else if strings.ToLower(tmp[0]) == "path" {
 			pathInit = true
